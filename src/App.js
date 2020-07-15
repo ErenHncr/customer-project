@@ -30,7 +30,7 @@ class App extends Component {
       <div className='App'>
         <Router>
           <Route exact path='/'>
-            <div style={{ padding: '25px' }}>
+            <div style={{ padding: '50px' }}>
               {isCreateOpen && (
                 <Modal>
                   <CreateCustomer
